@@ -1,8 +1,19 @@
-body{
-    margin: 0; font-family: 'Inter', sans-serif; color: #333;}
-    header, .banner{
-        background: url(../../Assets/Hero-bg.png) no-repeat center/cover; color:#111;
-         padding:20px}
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    /* background-image: url('../Assets/Hero-bg.png'); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+}
+.hero {
+    background-image: url('../Assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px; /* background kato tuku thakbe ta eta diye control korbi */
+}
     header{
         display: flex; justify-content:space-between; align-items: center;}
     header h1 {
@@ -22,7 +33,7 @@ body{
     .action-text p {margin-bottom: 15px;color: #555;}
     .action-text button {background:#5c55d7; color: #fff; border: none; padding:10px 20px;
     border-radius: 6px; cursor: pointer;}
-    .action-image {max-width: 300px;border-radius:8px;}
+    .action-image {max-width:300px;border-radius:20px;}
     
     .users-section{background:#eef2ff; text-align: center;padding: 60px 20px;border-radius: 20px;
     max-width: 800px;margin: 40px auto;}
