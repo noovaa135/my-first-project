@@ -30,7 +30,8 @@ body{
     .stats{display: flex;justify-content: center;flex-wrap: wrap;gap:40px;}
     .stat{font-size: 2em;color: #4f46e5; font-weight: 700;}
     .stat span {display: block;font-size: 0.9em;color: #6b7280;font-weight: 400;}
-
+     /* Added comment for 5 commit practice */
+    
     .feedback-section{background:#f9fafb;text-align: center;padding: 60px 20px;}
     .feedback-section h3 {margin-bottom: 40px;font-weight: 600;font-size: 1.5em;color: #111827;}
     .feedback-cards{display: flex;justify-content: center;align-items: stretch;gap: 20px;
